@@ -6,6 +6,7 @@ import Lists from "./src/Components/Lists"
 import FlatLists from "./src/Components/FlatLists"
 import SectionLists from "./src/Components/SectionLists"
 import Network from "./src/Components/Network"
+import Navigation from "./screens/index"
 
 export default class App extends React.Component {
   render() {
@@ -16,7 +17,8 @@ export default class App extends React.Component {
         {/* <Lists /> */}
         {/* <FlatLists /> */}
         {/* <SectionLists /> */}
-        <Network />
+        {/* <Network /> */}
+        <Navigation />
       </SafeAreaView>
     )
   }
